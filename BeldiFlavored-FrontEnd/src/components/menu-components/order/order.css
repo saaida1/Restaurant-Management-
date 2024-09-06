@@ -1,0 +1,46 @@
+.full-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.card {
+    height: 310px;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: 0px 1px 3px 1px ;
+    width: calc(25% - 20px);
+    
+}
+.card img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 150px;
+    
+}
+
+.title h3{
+    text-align: center;
+}
+.title p {
+    text-align: center;
+    margin-top: 10px;
+}
+.price-add{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+    
+}
+
+.addBtn{
+    padding: 5px;
+    width: 70px;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 20px;
+    cursor: pointer;
+   
+} 
+

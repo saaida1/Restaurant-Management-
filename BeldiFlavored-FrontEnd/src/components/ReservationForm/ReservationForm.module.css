@@ -1,0 +1,179 @@
+.sectionTransformTop {
+position: relative;
+}
+
+
+.container{
+
+    width: 100%;
+    padding-right: 80px;
+    padding-left: 80px;
+    margin-right: auto;
+    margin-left: auto;
+        
+} 
+
+.bookingTitle {
+  flex: 0 0 auto;
+  margin-right: 15px;
+  font-weight: 400;
+   
+  
+}
+
+.boxBooking{
+  border-radius: 5px; 
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 44px 90px, rgba(0, 0, 0, 0.27) 0px 40px 50px;
+  padding: 20px; 
+  margin: 20px 0; 
+  overflow: hidden;
+  width: 100%;
+  padding-right: 80px;
+  padding-left: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  background-color: #212530;
+  
+}
+
+
+
+/* 
+.boxBooking::before {
+  position: relative;
+  content: '';
+  top: 12%;
+  right: 3.4%;
+  bottom: -9%;
+  left: 3.4%;
+  background: rgba(0, 0, 0, 0.2);
+  filter: blur(20px);
+  border-radius: 7px;
+  z-index: -1;
+} */
+
+/* .rdForm {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+} */
+
+/* .rdForm > div {
+padding: 0 15px;
+
+} */
+
+/* .formRow {
+  display: flex; 
+  width: 100%; 
+  margin-bottom: 10px; }
+ */
+
+
+
+
+@media(max-width:1334px){
+  .container{
+    max-width: 650px;
+  }
+  .rdForm > div {
+  margin-bottom: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  .rdForm > div {
+  margin-bottom: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rdForm{
+  flex-direction: column;
+  padding: 0 8%;
+  align-items:normal;
+}
+
+}
+
+
+/* .bookingForm .formInput{
+  padding: 6px 0;
+  min-height: 40px;
+  border-radius: 0;
+  border-color: transparent transparent #C4C4C4 transparent;
+} */
+
+
+
+@media (min-width: 1404px){
+.bookingForm .formInput{
+border-color: transparent;
+}}
+
+
+.bookingTitle {
+  flex: 0 0 20%; /* Fix label width to prevent stretching */
+  margin-right: 10px; /* Add space between label and input */
+}
+
+.formWrap {
+  flex: 1 1 80%; /* Allow input/select box to fill remaining space */
+  display: flex;
+  align-items: center;
+}
+
+.formInput,
+.select2_hidden_accessible {
+  width: 100%; /* Make inputs and select box fill the available space within a row */
+  padding: 10px;
+  border: 1px solid #ccc; /* Subtle border */
+  border-radius: 3px; /* Rounded corners */
+  font-size: 16px;
+}
+
+.buttonLg.buttonGray600 {
+  background: transparent;
+  font-size: 15px;
+  color: rgb(117, 112, 112);
+  border: 1px solid rgb(239, 177, 90);
+  padding: 5px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+  height: 3em;
+  width: 10em;
+}
+
+.buttonLg:hover {
+  background-color: rgba(239, 177, 90);
+}
+
+.select2HiddenAccessible {
+  background: transparent;
+}
+  @media (min-width: 1200px){
+.boxBooking {
+  padding: 66px 40px;
+}}
+
+
+
+
+
+
+
+.pop {
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: rgba(0,0,0,0.8);
+
+}

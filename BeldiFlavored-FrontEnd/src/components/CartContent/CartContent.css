@@ -1,0 +1,153 @@
+
+.subtotal span{
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+
+.sec1{
+    width:70%;
+    height: 90vh;
+    margin-right: 40px;
+  }
+
+.container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.cart_box img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.cart_img{
+    display: flex;
+    width: 200px;
+    align-items: center;
+}
+.cart_img p {
+    font-weight: bold;
+    margin-left: 10px;
+}
+.cart_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+}
+.cart_box div:nth-child(2) button{
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.cart_box div:nth-child(3) button{
+    padding: 5px 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border:none;
+    outline: none;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cart_box div:nth-child(3) button:hover{
+    background-color: #ffc439;
+}
+.cart_box div:nth-child(3) span{
+    background-color: #ffc439;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+.total span:nth-child(1){
+    font-size: 2rem;
+    color: gray;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.total span:nth-child(2){
+    font-size: 2rem;
+    color: #ffc439;
+    font-weight: bold;
+}
+.pics{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pics img{
+    width: 54px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+
+.sec2 {
+    border: 1px solid;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;  
+    height: auto;  
+    box-shadow: 1px 8px 14px 5px;
+    padding: 20px;  
+    border-radius: 8px;
+}
+
+.sec2 h2 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.subtotal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+}
+
+.subtotal span {
+    font-size: 20px;
+    margin-left: 15px;
+    background-color: #ffc439;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+.pricet {
+    margin-right: 50px;
+    font-weight: bold;
+    
+}
+
+label {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 20px;  
+}
+
+#delivery {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    width: 100%;  
+    background-color: #ffc439;
+
+}
+
+
+
+.btnn h3 {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,42 @@
+/* Statistics.css */
+
+.statistics-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Align items vertically */
+  }
+  
+  .statistic-frame {
+    flex: 1; /* Make the statistic-frame flexible */
+    width: 200px; /* Set a fixed width */
+    padding: 25px; /* Add padding to the frame */
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+    margin: 20px; /* Add margin to create space between frames */
+    animation: fadeIn 0.5s ease forwards; /* Apply fade-in animation */
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* Slide down effect */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .statistic {
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .statistic h2 {
+    font-size: 24px;
+    color: rgb(117, 112, 112);
+  }
+  
+  .statistic p {
+    font-size: 16px;
+    color: #666;
+  }
+  

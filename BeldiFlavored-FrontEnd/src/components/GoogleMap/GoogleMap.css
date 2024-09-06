@@ -1,0 +1,17 @@
+iframe{
+    align-items: center;
+}
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: column;
+  }
+  .map-container  h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: start;
+color: rgb(75, 65, 65);
+font-size: 20px;
+  }

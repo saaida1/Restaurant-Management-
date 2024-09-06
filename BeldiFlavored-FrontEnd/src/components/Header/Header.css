@@ -1,0 +1,61 @@
+.header {
+    height: 34vw;
+    margin: 30px auto;
+    background: url('/TaBer.jpeg') no-repeat right center;
+    background-size: contain;
+    position: relative;
+    overflow: hidden; /* Ensure the shadow doesn't overflow the header */
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 50%; /* Adjust the width of the shadow */
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5), transparent); /* Define the shadow gradient */
+    z-index: 1; /* Ensure the shadow is behind the background image */
+}
+
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+    animation: fadeIn 3s;
+}
+
+.header-contents h2{
+    font-weight: 500;
+    color:  rgb(117, 112, 112);
+    font-size: max(4.5vw, 22px);
+
+}
+
+.header-contents p{
+    color:  rgb(117, 112, 112);
+    font-size: 1vw;
+}
+
+.header-contents button{
+    border: none;
+    color: rgb(117, 112, 112);
+    font-weight: 500;
+    padding:  5px 20px;
+    background-color: rgb(239, 177, 90);
+    font-size: max(1vw,13px);
+    border-radius: 50px;
+    cursor: pointer;    
+}
+
+.header-contents button:hover{
+    background-color: rgb(190, 151, 98);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+

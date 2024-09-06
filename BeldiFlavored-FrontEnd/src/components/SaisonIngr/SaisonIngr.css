@@ -1,0 +1,69 @@
+.saison-ingr{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.saison-ingr hr{
+    margin: 40px 0px 0px 0px;
+    height: 2px;
+    background-color:  rgb(179, 172, 172);
+    border: none;
+}
+
+.saison-ingr h1{
+    margin-top: 10px;
+    text-align: center;
+    color:  rgb(66, 63, 63);
+    font-weight: 500;
+}
+
+.saison-ingr-text{
+    color:  rgb(117, 112, 112);
+    text-align: center;
+}
+
+.saison-menu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin:  20px 0px;
+    overflow-x:  scroll;
+    
+}
+
+.saison-menu-list::-webkit-scrollbar{
+    display: none;
+}
+
+.saison-menu-list-items img{
+    width: 100%;  
+    height: auto; 
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+
+.saison-menu-list-items p{
+    margin-top: 10px;
+    color: rgb(117, 112, 112) ;
+    font-size: max(1.4vw, 16px);
+    cursor: pointer;
+}
+
+.saison-menu-list-items.active{
+    border: 2px solid rgba(239, 177, 90);
+    padding: 2px;
+}
+
+.img-container{
+    width: 100px; 
+    height: 100px; 
+    border: 2px solid rgba(239, 177, 90); 
+    border-radius: 8px; 
+    overflow: hidden; 
+    margin-bottom: 10px;
+}
+

@@ -1,0 +1,119 @@
+.navbar{
+    padding: 20px 0 px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.navbar .lo{
+    width: 150px;
+}
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: rgb(117, 112, 112);
+    font-size: 15px;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.navbar-right img {
+    width: 15px; 
+    height: 15px; 
+}
+
+.navbar-search-icon img {
+    width: 15px; 
+    height: 15px; 
+}
+
+.navbar button{
+    background: transparent;
+    font-size:  15px;
+    color:  rgb(117, 112, 112);
+    border: 1px solid rgb(239, 177, 90);
+    padding:  5px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 0;
+}
+.navbar button:hover{
+    background-color:rgba(239, 177, 90) ;
+}
+.navbar .active{
+    padding-bottom:  2px;
+    border-bottom: 2px solid rgb(117, 112, 112);
+}
+.navbar li{
+    cursor: pointer;
+}
+
+.navbar-search-icon{
+    position: relative;
+}
+
+.navbar-search-icon .dot{
+    position: absolute;
+    min-width: 20px;
+    min-height: 20px;
+    background-color:rgba(239, 177, 90);
+    border-radius: 50%;
+    top: -13px;
+    right: -16px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:1050px) {
+    .navbar .logo{
+        width: 140px;
+    }
+    .navbar-menu{
+        gap: 20px;
+        font-size: 17px;
+    }
+    .navbar-right{
+        gap: 30px;
+    }
+    .navbar-right img{
+        width: 22px;
+    }
+    .navbar-right button{
+        padding: 8px 25px;
+    }
+}
+
+@media (max-width:900px) {
+    .navbar .logo{
+        width: 120px;
+    }
+    .navbar-menu{
+        gap: 15px;
+        font-size: 16px;
+    }
+    .navbar-right{
+        gap: 20px;
+    }
+    .navbar-right img{
+        width: 20px;
+    }
+    .navbar-right button{
+        padding: 7px 20px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:750px) {
+    
+    .navbar-menu{
+        display: auto;
+    }
+    
+}

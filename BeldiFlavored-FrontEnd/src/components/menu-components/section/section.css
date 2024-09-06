@@ -1,0 +1,38 @@
+
+.pic-container {
+    margin: 0;
+    padding: 0;
+    background-image: url("../../../assets/headerabout.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-120%, -70%);
+    background-color: rgba(255, 255, 255, 0.5); 
+    background: linear-gradient(to right, #ff7e5f, #feb47b); 
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+.warning{
+    height: 40px;
+    width: 300px;
+    position: fixed;
+    right: 0;
+    top: 10%;
+    background-color: rgb(210, 91, 91);
+    font-size: 1.1rem;
+    color: white;
+    font-family: cursive;
+    padding: 5px;
+    border-radius: 5px;
+}
